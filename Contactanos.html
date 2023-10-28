@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>MercaDroja</title>
+        <link rel="icon" type="image/png" href="https://acortar.link/2aaiaV">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                background-color: #fff;
+            }
+
+            header {
+                margin-bottom: 20px;
+            }
+
+            .seccion-contacto {
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px #000000;
+                background-color: #fff;
+                width: 80%;
+                max-width: 400px;
+                text-align: center;
+            }
+
+                input,
+                textarea,
+                button {
+                width: calc(100% - 20px);
+                margin-bottom: 10px;
+                padding: 10px;
+                border: 1px solid #fff;
+                border-radius: 5px;
+            }
+
+            textarea {
+                height: 100px; /* Establece una altura fija para el área de texto */
+                resize: none; /* Evita que el usuario pueda ajustar el área de texto */
+            }
+
+            button {
+                width: 100%;
+                cursor: pointer;
+                background-color: #fff;
+                color: #fff;
+                border: none;
+            }
+
+            button:hover {
+                background-color: #fff;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>MercaDroja</h1>
+        </header>
+        <div class="seccion-contacto">
+            <h2>Contactanos</h2>
+            <form>
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Correo electrónico">
+                <textarea placeholder="Mensaje"></textarea>
+                <button>Enviar Mensaje</button>
+            </form>
+        </div>
+    </body>
+
+    <footer>
+        <div id="contenido-footer">
+            &copy; MercaDroja | Diseñado por Andrei
+        </div>
+    </footer>
+</html>
